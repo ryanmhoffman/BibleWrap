@@ -1,3 +1,4 @@
+import java.net.HttpURLConnection
 import java.net.URL
 
 /**
@@ -12,9 +13,15 @@ class BibleWrap {
 	 */
 	private val baseURL = "http://getbible.net/json?p="
 
-	fun getPassage(chapter: String): Boolean {
-		val result = URL(baseURL + chapter).readText()
-		println(result)
+	fun getPassage(passage: String): Boolean {
+		// Connect to the URL.
+		val connection = URL(baseURL + passage).openConnection() as HttpURLConnection
+		// Set a user agent to fool the API into thinking it's a browser request.
+		connection.addRequestProperty("User-Agent", "Mozilla/4.0")
+		// Store the entire contents of the JSON data as a String.
+		val data = connection.inputStream.bufferedReader().readText()
+
+		println(data)
 		return true
 	}
 }

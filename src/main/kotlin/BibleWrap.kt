@@ -37,4 +37,12 @@ class BibleWrap {
 		// TODO: get the chapter.
 		return true
 	}
+
+	/**
+	 * Get any book. Use carefully as the JSON response is typically quite large.
+	 */
+	fun getBook(book: String): Boolean {
+		// TODO: get the book.
+		return true
+	}
 }

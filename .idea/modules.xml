@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/biblewrap.iml" filepath="$PROJECT_DIR$/.idea/modules/biblewrap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biblewrap_main.iml" filepath="$PROJECT_DIR$/.idea/modules/biblewrap_main.iml" group="biblewrap" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biblewrap_test.iml" filepath="$PROJECT_DIR$/.idea/modules/biblewrap_test.iml" group="biblewrap" />
     </modules>
   </component>
 </project>

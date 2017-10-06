@@ -8,8 +8,15 @@ Java projects.
 ```kotlin
 bibleWrap = BibleWrap()
 bibleWrap.getBook("genesis") // Returns the entire contents of Genesis.
-biblewrap.getChapter("john1") // Returns John chapter 1.
+biblewrap.getChapter("john", 1) // Returns John chapter 1.
 ```
+
+## Where it Stands Currently
+This project is still under heavy development, but the method '''getPassage("passage")'''
+is working. It needs refactored to be more modular so there isn't redundancy across the
+other methods, but that method does work. It should be used with care because it accepts
+and String as an argument and it will not handle exceptions nicely (yet) if you specify
+an invalid endpoint.
 
 ## Limitations
 It is important to note that this does not parse the JSON data or serialize anything. It 

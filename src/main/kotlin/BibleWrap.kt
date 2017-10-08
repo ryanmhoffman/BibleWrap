@@ -19,12 +19,8 @@ class BibleWrap {
 	 * call a non-existent endpoint.
 	 */
 	fun getPassage(passage: String): Boolean {
-		// Connect to the URL.
-		val connection = URL(baseURL + passage).openConnection() as HttpURLConnection
-		// Set a user agent to fool the API into thinking it's a browser request.
-		connection.addRequestProperty("User-Agent", "Mozilla/4.0")
 		// Store the entire contents of the JSON data as a String.
-		val data = connection.inputStream.bufferedReader().readText()
+		val data = connectToAPI(passage).inputStream.bufferedReader().readText()
 
 		println(data)
 		return true
@@ -33,7 +29,7 @@ class BibleWrap {
 	/**
 	 * Function to get any single chapter from the specified book.
 	 */
-	fun getChapter(book: String, chapter, Int): Boolean {
+	fun getChapter(book: String, chapter: Int): Boolean {
 		// TODO: get the chapter.
 		return true
 	}
@@ -44,5 +40,14 @@ class BibleWrap {
 	fun getBook(book: String): Boolean {
 		// TODO: get the book.
 		return true
+	}
+
+	fun connectToAPI(endpoint: String) : HttpURLConnection {
+		// Connect to the API with the specified endpoint.
+		val connection = URL(baseURL + endpoint).openConnection() as HttpURLConnection
+		// Spoof the user agent to fool the API into thinking the request came from a
+		// browser.
+		connection.addRequestProperty("User-Agent", "Mozilla/4.0")
+		return connection
 	}
 }

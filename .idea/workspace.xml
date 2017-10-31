@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86685527-ebeb-4ae0-aceb-5dc0d0248f1d" name="Default" comment="" />
+    <list default="true" id="86685527-ebeb-4ae0-aceb-5dc0d0248f1d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/Books.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/Books.kt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,24 +43,14 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BibleWrap.kt" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BibleWrap.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+                <state relative-caret-position="838">
+                  <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#53#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Books.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/kotlin/Books.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="855">
-                  <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -66,11 +59,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/build.gradle">
+          <file leaf-file-name="Books.kt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/kotlin/Books.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state relative-caret-position="578">
+                  <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -483,8 +476,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/BibleWrap.kt" />
         <option value="$PROJECT_DIR$/BibleWrap/src/main/kotlin/BibleWrap.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Books.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
       </list>
     </option>
   </component>
@@ -949,12 +942,12 @@
       <workItem from="1505172853911" duration="2762000" />
       <workItem from="1508804372929" duration="653000" />
       <workItem from="1508805055995" duration="1331000" />
-      <workItem from="1508807074059" duration="2456000" />
+      <workItem from="1508807074059" duration="4719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17027000" />
+    <option name="totallyTimeSpent" value="19290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1069,21 +1062,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Books.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Books.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="838">
+          <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

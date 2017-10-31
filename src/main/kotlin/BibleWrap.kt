@@ -42,7 +42,7 @@ class BibleWrap {
 		return true
 	}
 
-	fun connectToAPI(endpoint: String) : HttpURLConnection {
+	private fun connectToAPI(endpoint: String) : HttpURLConnection {
 		// Connect to the API with the specified endpoint.
 		val connection = URL(baseURL + endpoint).openConnection() as HttpURLConnection
 		// Spoof the user agent to fool the API into thinking the request came from a

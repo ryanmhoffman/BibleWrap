@@ -4,7 +4,7 @@ import java.net.URL
 /**
  * Created by RMH on 9/4/17.
  *
- * A wrapper around the getbible.net API designed for quick easy access to the endpoints.
+ * A wrapper around the getbible.net API designed for quick, easy access to the endpoints.
  */
 class BibleWrap {
 
@@ -38,8 +38,12 @@ class BibleWrap {
 	 * Get any book. Use carefully as the JSON response can be quite large depending on
 	 * the book.
 	 */
-	fun getBook(book: String): Boolean {
-		// TODO: get the book.
+	fun getBook(book: Books): Boolean {
+		if (bookMap.containsKey(book)){
+			val input = bookMap.get(key = book)
+			val text = connectToAPI(input!!).inputStream.bufferedReader().readText()
+			print(text)
+		}
 		return true
 	}
 

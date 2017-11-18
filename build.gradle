@@ -2,7 +2,7 @@ group 'com.rmh.software'
 version '1.0-genesis'
 
 buildscript {
-    ext.kotlin_version = '1.1.4-3'
+    ext.kotlin_version = '1.1.60'
 
     repositories {
         mavenCentral()

@@ -14,4 +14,10 @@ class KotlinTests {
 		assertTrue { bw.getPassage("John1") }
 	}
 
+	@Test
+	fun printBook(){
+		val wrap = BibleWrap()
+		assertTrue { wrap.getBook(Books.THIRD_JOHN) }
+	}
+
 }

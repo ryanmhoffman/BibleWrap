@@ -4,7 +4,7 @@ import java.net.URL
 /**
  * Created by RMH on 9/4/17.
  *
- * A wrapper around the getbible.net API designed for quick easy access to the endpoints.
+ * A wrapper around the getbible.net API designed for quick, easy access to the endpoints.
  */
 class BibleWrap {
 

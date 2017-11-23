@@ -29,8 +29,14 @@ class BibleWrap {
 	/**
 	 * Function to get any single chapter from the specified book.
 	 */
-	fun getChapter(book: String, chapter: Int): Boolean {
+	fun getChapter(book: Books, chapter: Int): Boolean {
 		// TODO: get the chapter.
+		if(bookMap.containsKey(book)){
+			val input = bookMap.get(key = book)
+			val text = connectToAPI(input!! + chapter)
+					.inputStream.bufferedReader().readText()
+			print(text)
+		}
 		return true
 	}
 

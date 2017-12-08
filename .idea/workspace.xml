@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b62070c0-5128-4a61-bcee-bf4fc236bd07" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/biblewrap.iml" afterPath="$PROJECT_DIR$/.idea/modules/biblewrap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -62,21 +62,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="BibleWrap.kt" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BibleWrap.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                <state relative-caret-position="517">
+                  <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -89,8 +79,8 @@
           <file leaf-file-name="KotlinTests.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -307,8 +297,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4521866543000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4172055879" />
+        <entry key="$PROJECT_DIR$" value="4521866595000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1385460371" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -514,9 +504,9 @@
         <option value="$PROJECT_DIR$/src/test/kotlin/TestCases.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/BibleWrapTest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
       </list>
     </option>
   </component>
@@ -716,7 +706,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KotlinTests.printChapter">
+  <component name="RunManager" selected="JUnit.KotlinTests.printBook">
     <configuration default="false" name="KotlinTests.printBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="biblewrap" />
@@ -1480,8 +1470,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KotlinTests.printChapter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KotlinTests.printBook" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KotlinTests.printBook" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KotlinTests.printChapter" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.KotlinTests.testGetChapter" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.KotlinTests.printResults" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.KotlinTests" />
@@ -1500,7 +1490,7 @@
       <updated>1510970952964</updated>
       <workItem from="1510970958482" duration="2734000" />
       <workItem from="1510974030962" duration="1045000" />
-      <workItem from="1510975338516" duration="7043000" />
+      <workItem from="1510975338516" duration="8593000" />
     </task>
     <servers />
   </component>
@@ -1511,8 +1501,8 @@
     <history-entry file="KotlinTests_printBook - 2017.12.08 at 12h 04m 01s.xml">
       <configuration name="KotlinTests.printBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KotlinTests_printChapter - 2017.11.23 at 13h 11m 22s.xml">
-      <configuration name="KotlinTests.printChapter" configurationId="JUnit" />
+    <history-entry file="KotlinTests_printBook - 2017.12.08 at 12h 43m 23s.xml">
+      <configuration name="KotlinTests.printBook" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KotlinTests_printChapter - 2017.11.23 at 13h 17m 52s.xml">
       <configuration name="KotlinTests.printChapter" configurationId="JUnit" />
@@ -1537,7 +1527,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10822000" />
+    <option name="totallyTimeSpent" value="12372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="35" width="1838" height="1074" extended-state="0" />
@@ -1559,7 +1549,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1668,26 +1658,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="517">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding />
         </state>
       </provider>

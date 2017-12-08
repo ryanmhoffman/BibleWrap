@@ -1,3 +1,6 @@
+
+import com.beust.klaxon.JsonObject
+import com.beust.klaxon.Parser
 import java.net.HttpURLConnection
 import java.net.URL
 
@@ -44,13 +47,13 @@ class BibleWrap {
 	 * Get any book. Use carefully as the JSON response can be quite large depending on
 	 * the book.
 	 */
-	fun getBook(book: Books): Boolean {
+	fun getBook(book: Books): JsonObject {
+		var text: String = ""
 		if (bookMap.containsKey(book)){
 			val input = bookMap.get(key = book)
-			val text = connectToAPI(input!!).inputStream.bufferedReader().readText()
-			print(text)
+			text = connectToAPI(input!!).inputStream.bufferedReader().readText()
 		}
-		return true
+		return parseJSON(text)
 	}
 
 	private fun connectToAPI(endpoint: String) : HttpURLConnection {
@@ -60,6 +63,11 @@ class BibleWrap {
 		// browser.
 		connection.addRequestProperty("User-Agent", "Mozilla/4.0")
 		return connection
+	}
+
+	private fun parseJSON(json: String): JsonObject {
+		val parser: Parser = Parser()
+		return parser.parse(json) as JsonObject
 	}
 
 	private val bookMap = hashMapOf(

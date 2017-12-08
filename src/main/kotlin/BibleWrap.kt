@@ -21,26 +21,24 @@ class BibleWrap {
 	 * with caution because it can easily be the cause of an error if you attempt to
 	 * call a non-existent endpoint.
 	 */
-	fun getPassage(passage: String): Boolean {
+	fun getPassage(passage: String): JsonObject {
 		// Store the entire contents of the JSON data as a String.
 		val data = connectToAPI(passage).inputStream.bufferedReader().readText()
 
-		println(data)
-		return true
+		return parseJSON(data)
 	}
 
 	/**
 	 * Function to get any single chapter from the specified book.
 	 */
-	fun getChapter(book: Books, chapter: Int): Boolean {
-		// TODO: get the chapter.
+	fun getChapter(book: Books, chapter: Int): JsonObject {
+		var text: String = ""
 		if(bookMap.containsKey(book)){
 			val input = bookMap.get(key = book)
-			val text = connectToAPI(input!! + chapter)
+			text = connectToAPI(input!! + chapter)
 					.inputStream.bufferedReader().readText()
-			print(text)
 		}
-		return true
+		return parseJSON(text)
 	}
 
 	/**

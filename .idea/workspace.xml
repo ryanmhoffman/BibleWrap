@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b62070c0-5128-4a61-bcee-bf4fc236bd07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/biblewrap.iml" afterPath="$PROJECT_DIR$/.idea/modules/biblewrap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/KotlinTests.kt" />
-    </list>
+    <list default="true" id="b62070c0-5128-4a61-bcee-bf4fc236bd07" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +61,8 @@
           <file leaf-file-name="BibleWrap.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
-                  <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+                <state relative-caret-position="112">
+                  <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -1490,7 +1486,7 @@
       <updated>1510970952964</updated>
       <workItem from="1510970958482" duration="2734000" />
       <workItem from="1510974030962" duration="1045000" />
-      <workItem from="1510975338516" duration="8593000" />
+      <workItem from="1510975338516" duration="9206000" />
     </task>
     <servers />
   </component>
@@ -1527,7 +1523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12372000" />
+    <option name="totallyTimeSpent" value="12985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="35" width="1838" height="1074" extended-state="0" />
@@ -1676,8 +1672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/BibleWrap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="112">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -29,7 +29,8 @@ class BibleWrap {
 	}
 
 	/**
-	 * Function to get any single chapter from the specified book.
+	 * Get any single chapter from the specified book. This generally has a much smaller
+	 * returned response than getBook() and should be used in most cases.
 	 */
 	fun getChapter(book: Books, chapter: Int): JsonObject {
 		var text: String = ""
@@ -43,7 +44,7 @@ class BibleWrap {
 
 	/**
 	 * Get any book. Use carefully as the JSON response can be quite large depending on
-	 * the book.
+	 * the book. For a smaller response size consider calling getChapter() instead.
 	 */
 	fun getBook(book: Books): JsonObject {
 		var text: String = ""
@@ -54,6 +55,12 @@ class BibleWrap {
 		return parseJSON(text)
 	}
 
+	/**
+	 * Opens the connection to the API, spoofs the user agent to make the API think the
+	 * call came from a browser, and returns the connection.
+	 *
+	 * @return connection : the open connection to the API.
+	 */
 	private fun connectToAPI(endpoint: String) : HttpURLConnection {
 		// Connect to the API with the specified endpoint.
 		val connection = URL(baseURL + endpoint).openConnection() as HttpURLConnection
@@ -63,6 +70,9 @@ class BibleWrap {
 		return connection
 	}
 
+	/**
+	 * Accepts the String response and parses it into a JsonObject.
+	 */
 	private fun parseJSON(json: String): JsonObject {
 		val parser: Parser = Parser()
 		return parser.parse(json) as JsonObject

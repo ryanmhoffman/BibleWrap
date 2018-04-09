@@ -1,4 +1,10 @@
 # BibleWrap
+
+***This project is no longer being maintained and I'm not sure it is even still working***  
+As of January 2018 everything was minimally working, but there was a lot more necessary to 
+make it more usable. Feel free to submit a PR if you want to contribute.  
+
+
 API wrapper written in Kotlin for the getbible.net API. The aim of this library is to 
 wrap the endpoints of the API at getbible.net to make them easier to use in Kotlin and 
 Java projects. 
